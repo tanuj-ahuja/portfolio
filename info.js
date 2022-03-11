@@ -1,7 +1,7 @@
 let info = {
-  name: "Tanuj Ahuja",
-  logo_name: "tanuj",
-  flat_picture: require("./src/assets/tanuj.jpg"),
+  name: "Hrishikesh Paul",
+  logo_name: "paul",
+  flat_picture: require("./src/assets/potrait.jpg"),
   config: {
     use_cookies: true,
     navbar: {
@@ -9,73 +9,96 @@ let info = {
     }
   },
   description:
-    "I am a graduate student at Northeastern University in Computer Science. Prior to starting my masters, I worked as a Software Engineer at Postman (a product used by more than 17 million developers). During my time at Postman, I worked on building highly scalable data pipelines to deliver near-realtime data to data scientists. I also gained experience in designing software products using agile methodology and deploying them on the cloud using CI/CD tools. <br><br>I did my bachelor’s from Guru Gobind Singh Indraprastha University, India in Computer Science and Engineering. During the span of 4 years, I developed various software products with the common guiding principle of easing out the manual processes involved in various industries. As a result, I led the development of various web applications, mobile applications in ReactJS, Java, Python(Flask), Ruby from designing to production-grade deployment on Cloud(AWS, Heroku, Docker).<br><br>My current interests span software, data, and infrastructure engineering. I am actively looking for summer 2022 SWE internship/co-op opportunities where I can apply my skills, as well as grow and learn from my colleagues.",
+    "A second year Computer Science graduate student at Indiana University Bloomington with an interest in Software Development, UX Design and Artificial Intelligence - and seeking exciting opportunities related to the same.<br><br>I am a detail oriented person and I keep my goals and tasks organized to maintain productivity. I would bring to table a wide range of software skills, ranging from design and development to writing scripts for intelligent agents. I believe that the skills that I have attained from the dynamic environment and competitive university life define me, and I am looking forward to implementing and polishing them in any opportunity that I receive. ",
   links: {
-    linkedin: "https://www.linkedin.com/in/tanujahuja/", 
-    github: "https://github.com/tanuj-ahuja",
+    linkedin: "https://www.linkedin.com/in/hrishikeshpaul/",
+    github: "https://github.com/hrishikeshpaul",
+    angellist: "https://angel.co/u/hrishikesh-paul",
     resume:
       "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
   },
   education: [
     {
-      name: "Northeastern University, Boston",
+      name: "Indiana University Bloomington",
       place: "USA",
-      date: "Sept, 2021 - May, 2023",
+      date: "Aug, 2019 - May, 2021",
       degree: "Masters in Computer Science",
-      gpa: "4.0/4.0",
+      gpa: "3.7/4.0",
       description:
-        "Khoury College of Computer Sciences",
+        "Currently pursuing my Master's in Computer Science, while specializing in the field of Artificial Intelligence and Machine Learning.",
       skills: [
-        "Programming Design Paradigms",
+        "Artificial Intelligence",
+        "Software Engineering",
         "Algorithms",
-        "Database Management Systems",
-        "Foundation of Artificial Intelligence"
+        "Computer Vision",
+        "Music Data Mining",
+        "OS"
       ]
     },
     {
-      name: "Guru Gobind Singh Indraprastha University",
+      name: "Manipal Institute of Technology",
       place: "India",
-      date: "Aug, 2016 - Aug, 2020",
-      degree: "Bachelors in Technology in Computer Science and Engineering",
-      gpa: "9.2/10.0",
+      date: "Aug, 2015 - July, 2019",
+      degree: "Bachelors in Computer and Communication",
+      gpa: "8.0/10.0",
       description:
-        "",
+        "Graduated from Manipal Institute of Technology, Manipal with a bachelors degree in Computer and Communications Engineering.",
       skills: [
-        "Data Structures",
-        "Object Oriented Programming",
-        "Problem Solving",
-        "Web Technology",
+        "AI",
+        "Neural Netwroks",
+        "Data Mining",
+        "Computer Vision",
+        "Pattern Recognition",
+        "HCI",
         "Software Engineering"
       ]
     }
   ],
   experience: [
     {
-      name: "Postman Inc.",
-      place: "Bangalore, India",
-      date: "Jun, 2020 - Aug 2021",
-      position: "Software Engineer",
+      name: "Cyberinfrastructure for Network Science Center",
+      place: "Bloomington, Indiana",
+      date: "Jun, 2020 - Present",
+      position: "Research Assistant; Full Stack Developer",
       description:
-        "Delivered near real time data to Data Analysts/Scientists by developing highly scalable ETL/EL Pipelines in Python, Nodejs on serverless compute (Lambda), while increasing efficiency by 30%. Infrastructure deployment on AWS (PaaS) EBS, ECS, EC2 in VPC for micro-services, thus reducing latency by 50%.",
-      skills: ["Python", "Node.js", "AWS", "Docker", "Distributed Systems", "Airflow", "DBT"]
+        "Worked as a Software Developer for the Human BioMolecular Atlas Program (funded by the NIH), building innovative visualization tools to envision large biomedical datasets.",
+      skills: ["Angular", "Node.js", "Vega", "Shell", "Typescript"]
     },
     {
-      name: "Leiden University Medical Center",
-      place: "Leiden, Netherlands",
-      date: "Jun, 2019 - Aug, 2019",
-      position: "Undergraduate Researcher",
+      name: "Skylark Drones",
+      place: "Bangalore, India",
+      date: "Jan, 2019 - Jun, 2021",
+      position: "Full Stack Web Developer",
       description:
-        "Developed a deep learning model(similar to 3D U-net) in Tensorflow and Keras to automatically segment bladder, rectum, seminal vesicle, & prostate from CT images. Accepted at IEEE 17th International Symposium on Biomedical Imaging.",
-      skills: ["Python", "PyCharm", "Cuda", "GPU", "MeVisLab", "NiftyNet", "SimpleITK", "Tensorflow", "Keras"]
+        "Worked as a full stack web developer, implementing various features and fixing bugs for Skylark Drones’ central management system called Operations Portal and Data Mining Server.",
+      skills: ["MongoDB", "Flask", "VueJS", "NGINX"]
     },
     {
-      name: "Ideal Village CCBUL",
-      place: "Bangalore, India",
-      date: "Aug, 2017 - Nov, 2017",
-      position: "Software Engineer Intern",
+      name: "Hridayam Soft Solutions",
+      place: "Mumbai, India",
+      date: "May, 2018 - Jun, 2018",
+      position: "Computer Vision Engineer",
       description:
-        "Responsible for implementing, documenting, testing an employee management system in Java(mobile development), Ruby on Rails(web application), improving overall efficiency of company by 35%. Build interactive visualization using Google Maps API, leading to 50% growth in users.",
-      skills: ["Python", "Web App", "Java", "Ruby", "HTML/CSS", "JavaScript", "Google Maps API", "Restful APIs"]
+        "Scripted an algorithm for extracting information (such as date, invoice number etc.) from scanned images of invoices, built a web interface for using the former mentioned machine.",
+      skills: ["Python", "OpenCV", "PyTesseract", "AngularJS", "NodeJS"]
+    },
+    {
+      name: "Elementail Labs",
+      place: "Mumbai, India",
+      date: "May, 2017 - July, 2017",
+      position: "Full Stack Web Developer",
+      description:
+        "Implemented various contracts and deployed them on the upcoming blockchain technology - Ethereum, while also working as a MEAN stack web developer for Elemential Labs’ website.",
+      skills: ["MongoDB", "AngularJS", "NodeJS", "ExpressJS"]
+    },
+    {
+      name: "Viteos Capital Market Services s",
+      place: "Mumbai, India",
+      date: "May, 2016 - July, 2016",
+      position: "Software Developer",
+      description:
+        "Evaluated technologies, and building proof of concept/prototype solutions for trade processing and mathematical model based evaluations, while working in the software development team.",
+      skills: ["C#", "C++", "Visual Studio"]
     }
   ],
   skills: [
@@ -84,10 +107,10 @@ let info = {
       info: [
         "Python",
         "Javascript",
+        "TypeScript",
         "Java",
         "C",
         "C++",
-        "Bash",
         "SQL",
         "NoSQL",
         "Ruby"
@@ -95,27 +118,27 @@ let info = {
       icon: "fa fa-code"
     },
     {
-      title: "Cloud Technologies",
+      title: "data frameworks",
       info: [
-        "AWS",
-        "Docker",
-        "Lambda",
-        "Kinesis",
-        "Kafka",
-        "RDS",
-        "S3",
-        "SQS/SNS"
+        "Keras",
+        "Numpy",
+        "Pandas",
+        "OpenCV",
+        "SciPy",
+        "Sklearn",
+        "LibROSA",
+        "Pillow"
       ],
-      icon: "fa fa-cloud"
+      icon: "fa fa-cubes"
     },
     {
       title: "web technologies",
-      info: ["Ruby on Rails", "REST", "React", "Node", "Flask", "HTML", "CSS"],
+      info: ["Vue", "Angular", "React", "Node", "Flask", "HTML", "CSS"],
       icon: "fas fa-laptop-code"
     },
     {
       title: "databases",
-      info: ["PostgreSQL", "Redshift", "MySQL", "NoSQL", "Neo4j", "Firebase", "Redis"],
+      info: ["MongoDB", "MySQL", "OracleSQL", "Neo4j"],
       icon: "fa fa-database"
     },
     {
@@ -124,12 +147,13 @@ let info = {
         "MacOS",
         "Ubuntu",
         "Windows",
+        "Android",
         "Agile",
+        "Scrum",
+        "JIRA",
         "Heroku",
         "Firebase",
-        "Git",
-        "JIRA",
-        "Confluence"
+        "AWS S3"
       ],
       icon: "fas fa-tools"
     },
@@ -141,135 +165,300 @@ let info = {
   ],
   portfolio: [
     {
-      name: "Redash: Open Source Contributions",
+      name: "Sheet Recognizer",
       pictures: [
         {
-          img: require("./src/assets/portfolio/redash/one.png")
+          img: require("./src/assets/portfolio/msr/one.png")
+        },
+        {
+          img: require("./src/assets/portfolio/msr/two.png")
+        },
+        {
+          img: require("./src/assets/portfolio/msr/three.png")
+        },
+        {
+          img: require("./src/assets/portfolio/msr/four.png")
         }
       ],
-      technologies: ["React Native", "Flask", "Cypress", "JavaScript", "Python", "PostgreSQL"],
-      category: "Software",
+      technologies: ["Computer Vision", "OpenCV", "AI", "Flask", "Sockets"],
+      category: "Algorithm",
       date: "Jan, 2020 - Mar, 2020",
       github:
-        "https://github.com/tanuj-ahuja/redash",
-      visit: "https://github.com/tanuj-ahuja/redash",
+        "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
+      visit: "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
       description:
-        "Introduced various improvements in Redash - data exports, limited download of records, support for DML queries, increasing security of data by 100%, and eliminating dependency on external tools."
+        "Music Sheet Recognizer (MSR) highlights basic Image Processing and Recognition. Like Optical Character Recognition, this tool is used to detect music notes and rests. It makes use of basic Computer Vision techniques such as Convolution, Edge Detections, Hough Transforms and Template Matching to detect notes and rests on a music sheet. "
     },
     {
-      name: "Patient-Man",
+      name: "NoQ Job Portal",
       pictures: [
         {
-          img: require("./src/assets/portfolio/patientman/three.png")
+          img: require("./src/assets/portfolio/noq/logo.png")
+        },
+        {
+          img: require("./src/assets/portfolio/noq/one.png")
+        },
+        {
+          img: require("./src/assets/portfolio/noq/two.png")
+        },
+        {
+          img: require("./src/assets/portfolio/noq/three.png")
+        },
+        {
+          img: require("./src/assets/portfolio/noq/four.png")
         }
       ],
-      technologies: ["Ruby on Rails", "JavaScript", "HTML", "CSS", "AJAX", "S3", "IMB Cloud", "Sidekiq", "PostgreSQL", "Heroku"],
-      category: "Software",
-      date: "Jan, 2020 - April  , 2020",
-      github: "https://bitbucket.org/anuj1121999/clinic/src/master/",
-      visit: "https://bitbucket.org/anuj1121999/clinic/src/master/",
+      technologies: ["Node", "Vue", "Express", "MongoDB", "Heroku"],
+      category: "Website",
+      date: "Sep, 2019 - Dec  , 2019",
+      github: "https://github.com/hrishikeshpaul/noq",
+      visit: "https://noq-client.herokuapp.com/",
       description:
-        "Led development of a SaaS product(web) for managing patients in clinics, in use at few sites across North Delhi, India. Implemented features - vaccination reporting, custom notification for due vaccines, patient management, etc. reducing manual effort by 80%."
+        "No Q, is a revolutionary tool which allows for both employers and students to skip the hassle seen in modern day career fairs. For the students, there is an intuitive profile builder where you can add things like education, skills, certifications, honors, and experiences. No Q is not only good for students, but employers as well! A common problem at modern career fairs is the number of unqualified candidates who waste their time when they could be chatting with someone else. With No Q, only the students who meet the positions’ criteria will be able to apply, and from there the recruiter can invite them to talk in more detail at the career fair through our intuitive messaging system."
     },
     {
-      name: "SaveUp",
+      name: "POST",
       pictures: [
         {
-          img: require("./src/assets/portfolio/ebay/one.png")
+          img: require("./src/assets/portfolio/post/one.png")
+        },
+        {
+          img: require("./src/assets/portfolio/post/two.png")
         }
       ],
       technologies: [
-        "Android Studio",
-        "Java",
-        "XML",
-        "Firebase",
-        "SQL",
-        "Android SDK",
-        "Git",
-        "Postgres"
+        "Markov Models",
+        "Python",
+        "Artificial Intelligence",
+        "Vue",
+        "Heroku"
       ],
-      category: "Software",
-      github: "https://github.com/tanuj-ahuja/saveup",
-      date: "Sept, 2017 - Dec, 2017",
-      visit: "https://github.com/tanuj-ahuja/saveup",
+      category: "Algorithm",
+      github: "https://github.com/hrishikeshpaul/pos-tagger",
+      date: "Oct, 2019 - Nov, 2019",
+      visit: "https://post-client.herokuapp.com/",
       description:
-        "Developed an app to send automatic notifications when the price of user’s favorite product drops, using eBay API. 1st in a batch of 120 to develop an Android app 100+ active users. Top 10 teams at the DTU Hackathon 2017."
+        "Post is a simple algorithm that was developed to tagging a word corresponding to its part of speech. The algorithm makes of a probabilisitic approach along with some randomness, together which forms the basis of an algorithm called Gibbs Sampling."
     },
     {
-      name: "Movie Share",
+      name: "Suicide Analyzer",
       pictures: [
         {
-          img: require("./src/assets/portfolio/moviego/one.png")
+          img: require("./src/assets/portfolio/suicide/suicide-analyzer.png")
         },
         {
-          img: require("./src/assets/portfolio/moviego/two.png")
-        },
-        {
-          img: require("./src/assets/portfolio/moviego/three.png")
+          img: require("./src/assets/portfolio/suicide/suicide2-original.png")
         }
       ],
-      technologies: ["Ruby on Rails", "The Movie Database API", "Heroku", "SQLite", "jQuery", "HTML", "CSS"],
-      category: "Software",
-      date: "Feb, 2019 - June, 2019",
-      github: "https://github.com/tanuj-ahuja/movieshare",
-      visit: "https://quiet-thicket-97231.herokuapp.com/",
+      technologies: ["Node", "Angular", "Express", "Leaflet", "Pandas"],
+      category: "Website",
+      date: "Oct, 2018 - Nov, 2018",
+      github: "https://github.com/hrishikeshpaul/whodata",
+      visit: "https://skylarktiral.herokuapp.com/",
       description:
-        "Build a social networking website with focus on enabling users to share movies they have watched with their friends. Implemented login/sign up for users and modelled relationships between them."
+        "This is a web application, uses a map to demonstrate the number suicides committed around the globe, according to a dataset provided by the WHO. The application consists of a Leaflet map that colors every nation, based on the number of suicides that have been committed in that country, for that year. It provides us with the capability to select the data as well as the continent."
     },
     {
-      name: "Book Go",
+      name: "Sentiment Analyzer",
       pictures: [
         {
-          img: require("./src/assets/portfolio/bookgo/one.png")
+          img: require("./src/assets/portfolio/smit/one.png")
         },
         {
-          img: require("./src/assets/portfolio/bookgo/two.png")
+          img: require("./src/assets/portfolio/smit/two.png")
         },
         {
-          img: require("./src/assets/portfolio/bookgo/three.png")
+          img: require("./src/assets/portfolio/smit/three.png")
+        },
+        {
+          img: require("./src/assets/portfolio/smit/four.png")
         }
       ],
-      technologies: ["Ruby on Rails", "Heroku", "SQLite", "jQuery", "HTML", "CSS"],
-      category: "Software",
-      date: "Aug, 2018 - Oct  , 2018",
-      github: "https://github.com/tanuj-ahuja/BOGO",
-      visit: "https://agile-tundra-11803.herokuapp.com/",
+      technologies: ["LSTM", "Keras", "Angular", "Tweepy", "Heroku", "Python"],
+      category: "Alogrithm",
+      date: "Feb, 2018 - Apr  , 2018",
+      github: "https://github.com/hrishikeshpaul/sih",
+      visit: "https://angel.co/projects/1009777-sentiment-analysis",
       description:
-        "Wrote codes & configured solutions in Agile methodology to build a software that enables users to exchange books. Merged the above with a recommendation model to provide suggestions based upon previous purchases."
+        "Developing this for the final round of Smart India Hackathon 2018, the web application is a platform for showcasing the sentiment of the tweets of the people in the Telangana region in India on policy satisfaction, services and problem definitions. The minimal UI design consists of different bins, that have their respective tweets, all scraped from twitter. There is also a simple graphical representation denoting the sentiment of the tweets."
+    },
+    {
+      name: "Clumpr",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/clumpr/logo.png")
+        },
+        {
+          img: require("./src/assets/portfolio/clumpr/one.png")
+        },
+        {
+          img: require("./src/assets/portfolio/clumpr/two.png")
+        }
+      ],
+      technologies: ["Node", "Angular", "Express", "MySQL", "Facebook API"],
+      category: "Web App",
+      github: "https://github.com/hrishikeshpaul/clumpr",
+      date: "Sep, 2017 - Nov, 2017",
+      visit: "https://github.com/hrishikeshpaul/clumpr",
+      description:
+        'Clumpr is an online social event planning assistant that - using information about similar events happening in similar locations around the same time, friends who frequently attend the same events, and mutual friends - helps users to collaborate, combine, and attend events together, effectively "clumping" people and activities in a way that makes intuitive sense.'
+    },
+    {
+      name: "Nutricare",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/nc/one.png")
+        },
+        {
+          img: require("./src/assets/portfolio/nc/two.png")
+        },
+        {
+          img: require("./src/assets/portfolio/nc/three.png")
+        },
+        {
+          img: require("./src/assets/portfolio/nc/four.png")
+        },
+        {
+          img: require("./src/assets/portfolio/nc/five.png")
+        },
+        {
+          img: require("./src/assets/portfolio/nc/six.png")
+        }
+      ],
+      technologies: ["Node", "Angular", "Express", "MongDB", "Medical"],
+      category: "Website",
+      github: "https://github.com/hrishikeshpaul/clumpr",
+      date: "May, 2017 - Aug, 2017",
+      visit: "https://angel.co/projects/576300-nutricare",
+      description:
+        "Nutricare is a basic health website for users(patients) to input nutrient intake data and researchers to analyse the data with the help of graphs and tables. A researcher can conduct studies on N different subjects (patient) for a particular problem statement. Typically, a researcher will enter food item consumed by subjects over a period of time (Ex - 24hrs, or 1 week, or 1 month etc)."
+    }
+  ],
+  portfolio_design: [
+    {
+      name: "Guituna",
+      title: "Guituna - Mockup Design",
+      pictures: [
+        {
+          img: require("./src/assets/designs/coursera1/MoodBoard.png"),
+          title: "MoodBoard"
+        },
+        {
+          img: require("./src/assets/designs/coursera1/Mockups 1.png"),
+          title: "Mockups 1"
+        },
+        {
+          img: require("./src/assets/designs/coursera1/Mockups 2.png"),
+          title: "Mockups 2"
+        },
+        {
+          img: require("./src/assets/designs/coursera1/App Elements.png"),
+          title: "App Elements"
+        }
+      ],
+      technologies: ["XD", "Illustrator"],
+      category: "Visual Design",
+      github: "",
+      date: "May, 2020 - Jun, 2020",
+      visit: "",
+      description:
+        "Guituna is a simple, lightweight and intuitive guitar tuner, that provides different modes of guitars based on your usage. You can either select a specific string to tune, or free tune your guitar based on the frequency shown on the meter. Guituna also provides a handful of different tunings to help explore various tuning paradigms. There is also an array of settings that can be configured to your liking based on the devices you're using. <br/><br/>The interface aims to highlight the use of a minimal design and providing just enough controls to make for a great tuner, while exposing various possibilities of guitarists to explore."
+    },
+    {
+      name: "Pantree",
+      title: "Pantree - Mockup Design",
+      pictures: [
+        {
+          img: require("./src/assets/designs/pantree/MoodBoard.png"),
+          title: "Moodboard"
+        },
+        {
+          img: require("./src/assets/designs/pantree/1.png"),
+          title: "Mockups 1"
+        },
+        {
+          img: require("./src/assets/designs/pantree/2.png"),
+          title: "Mockups 2"
+        }
+      ],
+      technologies: ["XD", "Illustrator"],
+      category: "Visual Design",
+      github: "",
+      date: "May, 2020 - July, 2020",
+      visit: "",
+      description:
+        "Pantree is a recipiece finding and recommending application. It is often the case that you have run to your closest grocery store just to pick up one item that is missing in your kitchen. Pantree keeps a track of all your ingredients, and suggests recipes based on your meal preferences and past recipes. <br/><br/> The goal of the interface is to keep it similar to various recipe/food apps to reduce the learning required by the user, but also provide a smooth interface for users to seemlessly browse through recipes and ingredients."
+    },
+    {
+      name: "Bunder",
+      title: "Bunder - MVP Proposal",
+      pictures: [
+        {
+          img: require("./src/assets/designs/bunder/Moodboard.png"),
+          title: "Moodboard"
+        },
+        {
+          img: require("./src/assets/designs/bunder/Mockup 1.png"),
+          title: "Mockup 1"
+        },
+        {
+          img: require("./src/assets/designs/bunder/Mockup 2.png"),
+          title: "Mockup 2"
+        },
+        {
+          img: require("./src/assets/designs/bunder/Mockup 3.png"),
+          title: "Mockup 3"
+        },
+        {
+          img: require("./src/assets/designs/bunder/Market Research 1.png"),
+          title: "Market Research 1"
+        },
+        {
+          img: require("./src/assets/designs/bunder/Market Research 2.png"),
+          title: "Market Research 2"
+        }
+      ],
+      technologies: ["XD", "Illustrator"],
+      category: "Visual Design",
+      github: "",
+      date: "May, 2020 - July, 2020",
+      visit: "",
+      description:
+        "Bunder is an intuitive web platform for micro-communities to share sensitive data with privacy within the community and allow engagement amongst them. Our aim is two-fold - Co-existing and Collaboration. The former is executed by providing a platform for communities that are geographically positioned in the same proximity (Housing societies, Dorms, Apartment Complexes) to have and share data (exact apartment addresses, phone number, apartment housing rules, individuals tested positive for COVID-19) in an exclusive platform. The latter is to give these people in the community the ability to carry out a task you are physically or remotely unable to do; with dignity and ease."
     }
   ],
   recommendations: [
     {
       title:
-        "Tanuj already had experience with the U-net architecture and deep learning libraries like Tensorflow and Keras, which enabled him to start working from day one. I was impressed with the results Tanuj was able to achieve within a short period of three months that demonstrates his abilities as a skilled programmer and a researcher. We were able to extend his original work to a conference paper, which got accepted at the IEEE International Symposium on Biomedical Imaging (ISBI) 2020 as a full paper, where Tanuj is a shared first author with Mohamed Elmahdy.",
-      author: "Prof. Marius Staring",
-      position: "Associate professor & Visiting Scientist",
-      company: "Leiden University Medical Center & TU Delft",
-      location: "Netherlands"
+        "In his internship, Hrishikesh has demonstrated excellent learning ability, and with a dedicated, task oriented approach, he was able to complete his assignment ahead of time.",
+      author: "Ushanas Shastri",
+      position: "CTO",
+      company: "Viteos Capital Market Services",
+      location: "Mumbai"
     },
     {
       title:
-        "As a student of my Computer Graphics and Multimedia class, I found Tanuj to be an intelligent and a self-motivated individual who is capable of holding insightful discussions. Moreover, I distinctly remember that he often assisted his bewildered classmates by explaining concepts and helping them write code. Tanuj scored extraordinarily well in Theory of Computation, a subject that demands high logical and thinking ability.",
-      author: "Dr. Bhawna Suri",
-      position: "Associate Professor",
-      company: "Guru Gobind Singh Indraprastha University",
-      location: "Delhi, India"
+        "I feel his budding leadership abilities will become even more effective in a diverse and challenging environment.",
+      author: "Anil Dukkipatty",
+      position: "CTO",
+      company: "Elemential Labs",
+      location: "Mumbai"
     },
     {
       title:
-        "Apart from scoring highly throughout his bachelor's, he brought immense honour and glory to our institute when he scored 95.6% in the seventh semester crediting him with rank 1 at the university level among 1600+ students. It was a great experience to mentor him directly for his major project focusing on facial expression recognition using convolutional neural networks(CNNs) optimized with landmark detection. As a programmer, he is always conscientious and concentrates on writing code that survives the harshness of time and is readable.",
-      author: "Ms. Palak Girdhar",
-      position: "Assitant Professor",
-      company: "Guru Gobind Singh Indraprastha University",
-      location: "Delhi, India"
+        "He has gained great knowledge and experience of SDE, and has learned ot develop the application keeping in mind the client's perpective and also making it creative.",
+      author: "Chintan Shah",
+      position: "Director",
+      company: "Hridayam Soft Solution",
+      location: "Mumbai"
     },
     {
       title:
-        "Tanuj worked on extracting research information from the BASE repository to integrate with knowledge management system developed. The clarity of his concepts and thoughts were visible during the in-depth presentations he gave in our biweekly meetings. I was pleasantly surprised and impressed by his understanding of the system that I entrusted him to handle one more project partially built by another student. Nevertheless, Tanuj got comfortable with the pre-written code in no time and deployed the module on our local server.",
-      author: "Veena Makhija",
-      position: "Scientist G",
-      company: "Defence Research and Development Organisation",
-      location: "Delhi, India"
+        "During the course of his employment we have found him to be a self-started who was motivated, duty bound and a highly commited team player.",
+      author: "Mrinal Pai",
+      position: "Co-Founder & Director",
+      company: "Skylark Drones",
+      location: "Bangalore"
     }
   ]
 };
